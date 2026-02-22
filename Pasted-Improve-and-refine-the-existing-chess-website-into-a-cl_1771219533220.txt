@@ -1,0 +1,88 @@
+Improve and refine the existing chess website into a clean, professional, production-ready site.
+
+DO NOT change the core idea or structure.
+DO NOT lock any sections.
+FOCUS on cleanliness, professionalism, and usability.
+
+====================
+GLOBAL IMPROVEMENTS
+====================
+- Make all text, sections, tables, and cards fully editable
+- Improve spacing, alignment, and consistency
+- Use a professional chess-themed design
+- Remove clutter and unnecessary repetition
+- Ensure the site looks credible and trustworthy
+
+Color & Style:
+- Dark grey / charcoal background
+- White primary text
+- Green accent color for highlights and buttons
+- Consistent fonts across all pages
+- Clear section headers
+
+====================
+HEADER & BRANDING
+====================
+- Website name: MY Chess Hub
+- Clean header with site name on the left
+- Simple navigation menu on the right
+- No flashy animations
+
+====================
+HOME PAGE REFINEMENT
+====================
+Hero Section:
+- Title: MY Chess Hub
+- Subtitle: Tournaments • Results • Learning
+- Primary button: View Tournaments
+
+Introduction Text (polished, professional):
+"MY Chess Hub is a platform dedicated to sharing updated chess tournament information, results, and learning resources, covering Malaysia and the international chess scene."
+
+Latest Results Section:
+- Clean table layout
+- Clearly labeled columns
+- Easy to edit manually
+- Looks like a real sports website
+
+====================
+TOURNAMENTS PAGE REFINEMENT
+====================
+Ensure clear separation and hierarchy.
+
+Malaysia Section:
+- Ongoing Tournaments displayed as clean cards
+- Results displayed in a simple, readable table
+- State Championships clearly separated by state
+- Each state section must look uniform and organized
+
+International Section:
+- Group tournaments by continent, then country
+- Cards for ongoing tournaments
+- Tables for results and national championships
+- Avoid overcrowding; prioritize readability
+
+====================
+CONTENT RULES
+====================
+- No placeholder lorem ipsum
+- No exaggerated claims
+- Neutral, factual, professional tone
+- Easy for a student to update weekly
+
+====================
+EDITING & USABILITY
+====================
+- All tables must allow adding/removing rows
+- All cards must be duplicable
+- No hardcoded data
+- No auto-generated fake tournaments
+
+====================
+FINAL GOAL
+====================
+The website should look like:
+- A real chess information hub
+- Trustworthy to parents, players, and organizers
+- Clean enough to later support monetization
+- Manageable by a beginner without coding

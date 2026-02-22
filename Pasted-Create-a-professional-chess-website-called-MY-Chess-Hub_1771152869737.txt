@@ -1,0 +1,227 @@
+Create a professional chess website called "MY Chess Hub".
+
+The website must be fully editable manually after generation.
+
+====================
+GLOBAL SETTINGS
+====================
+- Website Name: MY Chess Hub
+- Suggested Domain Name: mychesshub.com (do not purchase, name only)
+- Target Audience: Chess players, students, parents, clubs, tournament organizers
+- Tone: Professional, clear, trustworthy
+- Mobile-friendly
+- SEO-friendly structure
+
+====================
+PAGES
+====================
+Home
+Tournaments
+Learn Chess
+Resources
+Contact
+
+====================
+DESIGN & BRANDING
+====================
+- Clean, modern, professional layout
+- Chess-themed color palette:
+  Dark grey / black background
+  White text
+  Green accent color
+- Use chess-related icons (knight, board, pieces)
+- Add space for a logo at the top-left
+
+LOGO GUIDELINE (PLACEHOLDER):
+- Logo text: MY Chess Hub
+- Style: Minimalist
+- Icon: Knight chess piece or chessboard
+- Colors: Dark grey, white, green accent
+- Logo must be replaceable later
+
+====================
+HOME PAGE
+====================
+Hero Section:
+Title: MY Chess Hub
+Subtitle: Tournaments • Results • Learning
+Button: View Tournaments
+
+Introduction Text:
+MY Chess Hub is a platform dedicated to providing updated chess tournament information, results, and learning resources. The website covers Malaysian and international chess events in one organized place.
+
+--------------------
+LATEST RESULTS SECTION
+--------------------
+Create a section titled "Latest Results"
+Display the 5 most recent tournament results in a TABLE with:
+- Tournament Name
+- Country / State
+- Winner
+- Date
+
+This section must be easy to update manually.
+
+====================
+TOURNAMENTS PAGE
+====================
+Split the page into TWO MAIN SECTIONS:
+1. Malaysia
+2. International
+
+--------------------
+MALAYSIA SECTION
+--------------------
+
+A) Ongoing Tournaments (Malaysia)
+- Display using CARDS
+- Each card must include:
+  Tournament Name
+  Location
+  Dates
+  Category (U8, U10, U12, U17, Open)
+  Status: Ongoing
+  Official Link
+
+B) Results (Malaysia)
+- Display using a TABLE
+- Columns:
+  Tournament Name
+  Winner
+  Runner-up
+  Top Local Player
+  Date
+  Results Link
+
+C) State Championships (Malaysia)
+Create SEPARATE subsections for EACH state:
+
+Selangor
+Kuala Lumpur
+Johor
+Penang
+Perak
+Negeri Sembilan
+Melaka
+Pahang
+Terengganu
+Kelantan
+Kedah
+Perlis
+Sabah
+Sarawak
+Putrajaya
+Labuan
+
+Each state subsection must use a TABLE with:
+- Championship Name
+- Date
+- Age Categories
+- Winner
+- Official Results Link
+
+--------------------
+INTERNATIONAL SECTION
+--------------------
+
+A) Ongoing International Tournaments
+- Organize by CONTINENT, then COUNTRY:
+  Asia
+  Europe
+  Americas
+  Africa
+  Oceania
+- Display using CARDS
+- Each card must include:
+  Tournament Name
+  Country
+  City
+  Dates
+  Category
+  Status: Ongoing
+  Official Link
+
+B) International Results
+- Display using a TABLE
+- Columns:
+  Tournament Name
+  Country
+  Winner
+  Runner-up
+  Date
+  Results Link
+
+C) National Championships (All Countries)
+- Allow listings for EVERY country
+- Display using a TABLE with:
+  Country
+  Championship Name
+  Category (Open / Women / Youth)
+  Winner
+  Date
+
+====================
+LEARN CHESS PAGE
+====================
+Beginner-friendly sections:
+- How chess pieces move
+- Basic checkmate patterns
+- Opening principles
+- Common beginner mistakes
+
+Content must be simple and editable.
+
+====================
+RESOURCES PAGE
+====================
+Sections for:
+- Online chess platforms
+- Learning websites
+- Useful tools
+- Space reserved for future downloadable PDFs
+
+====================
+CONTACT PAGE
+====================
+- Simple contact section
+- Editable fields for:
+  Email
+  Social media links
+  Contact form (optional)
+
+====================
+WEEKLY MANAGEMENT SYSTEM
+====================
+The website must be structured so that:
+- New tournaments can be added weekly
+- Finished tournaments can be moved from "Ongoing" to "Results"
+- Latest Results on the Home page can be updated easily
+- Tables and cards can be duplicated without coding
+
+====================
+TRUST & ACCURACY
+====================
+Content should be suitable for linking to official chess sources such as:
+- World chess federation websites
+- National chess federations
+- Online chess platforms
+
+====================
+FUTURE MONETIZATION (DO NOT ACTIVATE NOW)
+====================
+Reserve space for future use only:
+- Sponsored tournament promotions
+- Featured events
+- Downloadable beginner chess guides
+- Coaching referrals
+
+Do NOT place ads now. Only prepare layout space.
+
+====================
+FINAL REQUIREMENT
+====================
+All text, tables, cards, and sections must be:
+- Clearly labeled
+- Fully editable manually
+- Easy to update by a beginner
+- Scalable as the website grows

@@ -1,0 +1,10 @@
+Add a new tournament submission page and update the existing registry
+
+Implement a new page for submitting tournament details and dynamically fetch/display tournament data using Google Sheets as a backend.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: 08afec72-731d-47ed-b125-ee13f2f8ef89
+Replit-Commit-Checkpoint-Type: full_checkpoint
+Replit-Commit-Event-Id: a92ff352-76a3-4f32-97e0-8b1040257346
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/736ba4dc-f221-4240-9f88-b39302a7c2bc/08afec72-731d-47ed-b125-ee13f2f8ef89/8TTbYdW
+Replit-Helium-Checkpoint-Created: true

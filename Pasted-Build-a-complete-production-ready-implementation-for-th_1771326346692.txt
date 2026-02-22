@@ -1,0 +1,76 @@
+Build a complete production-ready implementation for the Tournaments page and Contact page with full working backend and premium UI.
+
+1) TOURNAMENTS PAGE:
+
+Create a dynamic tournaments system using Node.js + Express backend.
+
+- Create an endpoint /api/tournaments
+- Store tournaments in a structured JSON file (tournaments.json) with fields:
+  id, name, type (International/Domestic), state (if domestic), location, date, format (Rapid/Blitz/Classical), registrationLink
+
+- Pre-populate with REAL upcoming tournaments from:
+  - FIDE calendar (International)
+  - Chess.com events
+  - Lichess tournaments
+  - Example domestic tournaments categorized by state
+
+- Frontend should fetch from /api/tournaments dynamically (no hardcoded tournaments).
+
+Frontend requirements:
+- Dark premium theme
+- Responsive grid layout
+- Tournament cards
+- Smooth hover lift (translateY)
+- Subtle emerald glow shadow
+- 300ms smooth transitions
+- Filters:
+   • Filter by International/Domestic
+   • Filter by State
+   • Filter by Format
+
+Each card must display:
+- Tournament name
+- Location
+- Date
+- Format
+- “Register” button (opens registrationLink in new tab)
+
+2) CONTACT PAGE:
+
+Remove the entire "Follow Us" section.
+
+Create a fully working contact form with:
+- Name input
+- Email input
+- Message textarea
+- Submit button
+
+Backend:
+- Create POST /api/contact
+- Use Nodemailer
+- Send emails to: chesshub12345@gmail.com
+- Use environment variables for email + app password
+- Validate email format
+- Prevent empty fields
+- Return proper success/error JSON responses
+
+Frontend:
+- On submit:
+   • Show loading spinner
+   • Disable button while sending
+   • Show animated success message on success
+   • Show error message if failed
+   • Reset form after success
+
+UI styling:
+- Glassmorphism form container
+- Smooth input focus glow (emerald)
+- Premium animated emerald gradient submit button
+- 300ms transitions everywhere
+- No console errors
+- Fully responsive
+- Production-ready structure
+
+Make sure everything works together properly.
+Do not leave placeholders.
+Generate full server.js, JSON structure, and frontend implementation.

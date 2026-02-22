@@ -1,0 +1,13 @@
+Build a fully responsive Premium Tournaments Page and Modern Contact Page for a professional chess website with a dark theme and emerald (#10B981) accent color. Use glassmorphism UI (semi-transparent white cards with backdrop-blur, subtle borders, soft shadows).
+
+For the Premium Tournaments Page:
+Create a header section with title “Premium Tournaments” and a short subtitle. Below it, add functional frontend filters: Category (All / Domestic / International) and Format (All / Classical / Rapid / Blitz). Filters must work dynamically on the frontend without refresh. Use a simulated async data fetch (e.g., setTimeout or mock API call) to load tournaments with a loading spinner before data appears, structured in a way that can easily connect to a real API later.
+
+Tournament cards must use glassmorphism styling with smooth hover lift (translateY effect), soft scale, and emerald glow shadow on hover. Each card should display: Tournament Name, Location, Date, Format, Category, Prize Fund, and a “View Details” button with animated emerald glow border. Add subtle fade-in animation when cards load. Include empty-state UI if no tournaments match filters.
+
+For the Modern Contact Page:
+Create a centered glassmorphism form container with smooth fade-in animation. Include fields: Full Name, Email, Subject, Message. Inputs must have emerald glow focus effects with smooth transitions. Add validation (required fields + valid email format).
+
+The submit button must have an animated emerald gradient background with hover glow and subtle scale effect. When submitting, show a loading state (spinner + disabled button). Simulate async submission with setTimeout. After submission, show animated success or error message with smooth fade/slide transition.
+
+Ensure everything is fully responsive, mobile-friendly, clean spacing, smooth transitions (0.3–0.4s ease), modern typography (Inter or similar), and optimized structure. Use semantic HTML, clean CSS (or Tailwind if enabled), and modular JS ready for real API integration.

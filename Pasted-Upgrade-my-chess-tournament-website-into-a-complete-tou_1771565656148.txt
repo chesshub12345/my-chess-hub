@@ -1,0 +1,188 @@
+Upgrade my chess tournament website into a complete tournament platform where public organizers can submit:
+
+1) FIDE-rated tournaments
+2) National/Local tournaments
+3) Online tournaments (Lichess / Chess.com / Other platforms)
+
+The system must automatically publish submissions without manual approval and must not require paid backend hosting.
+
+========================================
+CORE SYSTEM STRUCTURE
+========================================
+
+Use Google Sheets as a free database.
+
+Create a Google Sheet named:
+ChessHub_Tournaments
+
+Columns:
+
+id
+tournamentName
+organizerName
+organizerEmail
+tournamentCategory (FIDE / National / Online)
+ratingType (FIDE Rated / National Rated / Unrated)
+platform (Lichess / Chess.com / Other / Offline)
+country
+state
+city
+venue
+startDate
+endDate
+timeControl
+format (Swiss / Round Robin / Arena / Knockout)
+entryFee
+prizeFund
+registrationLink
+description
+contactInfo
+createdAt
+
+Use Google Apps Script as REST API:
+
+- POST endpoint to submit tournament
+- GET endpoint to fetch all tournaments
+
+Frontend must:
+- POST submissions automatically
+- Fetch tournaments dynamically
+- No manual approval system
+- Automatically display immediately after submission
+
+========================================
+SUBMIT TOURNAMENT PAGE
+========================================
+
+Create: /submit-tournament
+
+Form must include:
+
+Organizer Information:
+- Organizer Name (required)
+- Organizer Email (required, validated)
+- Contact Info (optional)
+
+Tournament Details:
+- Tournament Name (required)
+- Tournament Category dropdown:
+    • FIDE Rated
+    • National Rated
+    • Local / Club
+    • Online Tournament
+- Rating Type dropdown:
+    • FIDE Rated
+    • National Rated
+    • Unrated
+
+Location Section:
+IF Offline:
+    - Country
+    - State
+    - City
+    - Venue
+
+IF Online:
+    - Platform dropdown:
+        • Lichess
+        • Chess.com
+        • Other
+    - Platform Link (required)
+
+Schedule:
+- Start Date
+- End Date
+- Time Control (e.g. 90+30, 10+0)
+- Format dropdown (Swiss, Round Robin, Arena, Knockout)
+
+Financial:
+- Entry Fee
+- Prize Fund
+
+Extra:
+- Registration Link (validated URL)
+- Description (textarea)
+
+========================================
+SMART LOGIC
+========================================
+
+- If category = Online → hide venue fields
+- If category ≠ Online → require location fields
+- Validate email and URLs
+- Prevent duplicate submissions (same name + date)
+- Show loading animation on submit
+- Disable button during submission
+- Show success confirmation
+
+========================================
+TOURNAMENTS PAGE
+========================================
+
+Update tournaments page to:
+
+Fetch dynamically from Google Sheets.
+
+Features:
+
+- Search bar (by name)
+- Filter by:
+    • Category (FIDE / National / Online)
+    • Rating Type
+    • Country
+    • Platform
+    • Format
+- Sort by:
+    • Upcoming first
+    • Newest
+    • Prize Fund
+
+Display Card Must Show:
+
+- Tournament Name
+- Badge:
+    • FIDE Rated (gold badge)
+    • National Rated (blue badge)
+    • Online (purple badge)
+- Location OR Platform
+- Dates
+- Time Control
+- Prize Fund
+- Entry Fee
+- Register Button (opens in new tab)
+- Organizer Contact
+
+========================================
+DESIGN REQUIREMENTS
+========================================
+
+Premium dark theme.
+Modern startup-level UI.
+Glassmorphism cards.
+Emerald accent color.
+Soft glow hover effects.
+300ms smooth transitions.
+Fully responsive.
+Mobile-first layout.
+
+No console errors.
+Clean folder structure.
+Well-organized components.
+Scalable for future real backend migration.
+
+========================================
+FUTURE READY
+========================================
+
+Structure code so later I can migrate from Google Sheets to:
+
+- Supabase
+- Firebase
+- MongoDB
+
+without rewriting frontend logic.
+
+Everything must be production-ready and complete.
+Do not skip any part.
+Do not leave placeholders.
+Implement full working system.
